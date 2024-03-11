@@ -17,5 +17,5 @@ jobs:
           username: ${{ secrets.DIGITALOCEAN_DROPLET_USERNAME }}
           password: ${{ secrets.DIGITALOCEAN_DROPLET_PASSWORD }}
           script: |
-            cd CI-CD-Workshop/backend
+            cd CI-CD-Workshop
             ./scripts/deploy.sh
